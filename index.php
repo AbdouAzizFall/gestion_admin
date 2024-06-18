@@ -4,18 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gestion administrative d'une ecole</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <nav>
-        <img src="img/logo.jpg" alt="image" style="height: 50px;">
-        <class class="menu">
+        <img src="img/logo.jpg" alt="image" style="height: 70px;">
+        <div class="menu">
             <ul>
-                <li><a href="#"></a>Gestion des filieres</li>
-                <li><a href="#"></a>Gestion des modules</li>
-                <li><a href="#"></a>gestion des profs</li>
-                <li><a href="#"></a>Gestion des etudiants</li>
+                <li><a href="#">Gestion des filières</a></li>
+                <li><a href="#">Gestion des modules</a></li>
+                <li><a href="#">Gestion des profs</a></li>
+                <li><a href="#">Gestion des étudiants</a></li>
             </ul>
-        </class>
+        </div>
     </nav>
 </body>
 </html>

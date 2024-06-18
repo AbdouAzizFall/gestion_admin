@@ -1,0 +1,50 @@
+body {
+    margin: 0; /* Supprime la marge par défaut autour du corps de la page */
+    padding: 0; /* Supprime le padding par défaut autour du corps de la page */
+    font-family: Arial, Helvetica, sans-serif; /* Définit la police utilisée sur la page */
+}
+
+nav {
+    display: flex; /* Utilise Flexbox pour aligner les enfants du conteneur nav */
+    align-items: center; /* Aligne verticalement les éléments enfants au centre */
+    padding: 0 20px; /* Ajoute un padding de 20px à gauche et à droite */
+    background-color: gainsboro; /* Définit la couleur de fond du conteneur nav */
+    height: 70px; /* Définit la hauteur du conteneur nav */
+}
+
+.menu {
+    display: flex; /* Utilise Flexbox pour aligner les enfants du conteneur menu */
+    flex-grow: 1; /* Permet au menu de prendre tout l'espace disponible */
+    justify-content: flex-end; /* Aligne les éléments enfants (les liens) à droite */
+}
+
+.menu ul {
+    display: flex; /* Utilise Flexbox pour aligner les éléments de la liste horizontalement */
+    list-style: none; /* Supprime les puces de la liste */
+    padding: 0; /* Supprime le padding par défaut de la liste */
+    margin: 0; /* Supprime la marge par défaut de la liste */
+}
+
+.menu ul li {
+    margin-left: 90px; /* Ajoute un espace de 90px à gauche de chaque élément de la liste */
+}
+
+.menu ul li a {
+    text-decoration: none; /* Supprime le soulignement par défaut des liens */
+    color: #333; /* Définit la couleur du texte des liens */
+    padding: 10px 20px; /* Ajoute un padding de 10px en haut et en bas, et 20px à gauche et à droite pour les liens */
+    border: 2px solid #333; /* Ajoute une bordure de 2px avec une couleur de #333 (gris foncé) */
+    border-radius: 5px; /* Arrondit les coins des boutons avec un rayon de 5px */
+    transition: background-color 0.3s, color 0.3s; /* Ajoute une transition de 0.3s pour les changements de couleur de fond et de texte */
+    background-color: white; /* Définit la couleur de fond des liens en blanc */
+}
+
+.menu ul li a:hover {
+    background-color: blue; /* Change la couleur de fond en bleu lorsque le lien est survolé */
+    color: white; /* Change la couleur du texte en blanc lorsque le lien est survolé */
+}
+
+.menu ul li a:active {
+    background-color: #333; /* Change la couleur de fond en #333 (gris foncé) lorsque le lien est cliqué */
+    color: white; /* Change la couleur du texte en blanc lorsque le lien est cliqué */
+}
